@@ -21,12 +21,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  13thsymphony
 
-exclude:
-  [
-    readme.md,
-    license
-  ]
-
 # Build settings
 markdown: kramdown
 theme: minima
@@ -38,7 +32,8 @@ strict_front_matter: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+  - readme.md
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
