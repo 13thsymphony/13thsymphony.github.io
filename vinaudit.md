@@ -4,9 +4,9 @@ title: VinAudit.com for Windows
 permalink: /vinaudit/
 ---
 
-Buying a used car? Get peace of mind with the VinAudit.com VIN scanner for Windows! Scan your VIN for an instant VIN check, and purchase a full NMVTIS vehicle history report from [www.vinaudit.com](http://www.vinaudit.com/).
+Buying a used car? Get peace of mind with the VinAudit.com VIN scanner for Windows! Scan your VIN for an instant VIN check, and purchase a full NMVTIS vehicle history report from [www.vinaudit.com](www.vinaudit.com/).
 
-VinAudit.com for Windows can be found on the [Windows Store](https://www.microsoft.com/store/apps/).
+VinAudit.com for Windows can be found on the [Windows Store](https://www.microsoft.com/store/apps/9WZDNCRFJW84).
 
 # Support
 For questions and problems, email [support@13thsymphony.com](mailto:support@13thsymphony.com).
