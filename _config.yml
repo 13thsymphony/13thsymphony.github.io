@@ -16,7 +16,7 @@
 title: Simon Tao software projects
 email: support@13thsymphony.com
 description: >- # this means to ignore newlines until "baseurl:"
-  © 2018 Simon Tao under the MIT license
+  © Simon Tao
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  13thsymphony

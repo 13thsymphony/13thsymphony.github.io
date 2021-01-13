@@ -6,6 +6,10 @@ layout: home
 ---
 ![bigbunny]({{ "/images/bigbunny_256.png" | absolute_url }})
 
-This site contains support and reference information for software projects that I (Simon Tao) maintain. It is hosted on [GitHub Pages](https://pages.github.com/) and built using [Jekyll](https://github.com/jekyll/jekyll); source code can be found on [GitHub](https://github.com/13thsymphony/13thsymphony.github.io).
+# Simon Tao writes code...
+
+...and sometimes it is useful!
+
+This site contains support and reference information for projects and apps that I maintain. Most source code, including for this site, is hosted on [GitHub](https://github.com/13thsymphony/).
 
 Contact me via [support@13thsymphony.com](mailto:support@13thsymphony.com).
