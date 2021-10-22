@@ -7,21 +7,39 @@ permalink: /hdrimageviewer/
 HDR + WCG Image Viewer lets you view a variety of popular high dynamic range (HDR) image formats at full visual quality on a capable HDR10 display:
 * OpenEXR
 * Radiance RGBE (.hdr)
-* JPEG XR (including HDR game screenshots captured on Xbox and Windows 10)
+* JPEG XR (including HDR game screenshots captured on Xbox and Windows)
+* HEIC and AVIF with HDR10 image data
 
-When viewing the above on a standard dynamic range (SDR) display, the app performs HDR tonemapping to achieve the best possible quality. The app also includes some useful tools for HDR developers such as rendering the image luminance as a colorized heatmap.
+When viewing the above on a standard dynamic range (SDR) display, the app performs HDR tonemapping to achieve the best possible quality. The app also includes some useful tools for HDR developers such as rendering the image luminance as a colorized heatmap, or forcing an image to be interpreted with a specific colorspace (for example, PNG images encoded as HDR10).
 
 In addition, you can view a variety of high bit depth and/or wide color gamut (WCG) image formats on a capable display:
 * JPEG with embedded ICC profile
 * TIFF
 
 # Obtaining the App
-HDR + WCG Image Viewer can be found on the [Windows Store](https://www.microsoft.com/store/apps/9PGN3NWPBWL9). The source code is published under the MIT license at [GitHub](https://github.com/13thsymphony/HDRImageViewer).
+HDR + WCG Image Viewer can be found on the [Microsoft Store](https://www.microsoft.com/store/apps/9PGN3NWPBWL9). The source code is published under the MIT license at [GitHub](https://github.com/13thsymphony/HDRImageViewer).
 
-This app is the spiritual successor to [HDR Image Viewer](https://www.microsoft.com/store/productId/9NPSWXVL7W40) published by Rick Manning, which is in turn based on the D2DAdvancedColorImages SDK sample which is part of the [Windows 10 samples repository](http://go.microsoft.com/fwlink/p/?LinkId=619979).
+# Command line usage
+You can invoke ```HDRImageViewer.exe``` from a command line to access advanced functionality. You should invoke HDRImageViewer from the directory containing the image you wish to load - UWP apps launched from a command line only have access to files within the working directory.
+
+## Parameters
+`-f` Start in fullscreen mode
+
+`-h` Start with UI hidden
+
+`-forcebt2100` Force images to use BT.2100 PQ
+
+`-input:filename` Load `filename`
+
+**Note: Filename must be relative to the current working directory as HDRImageViewer only has access to that directory.**
+
+## Example
+`HDRImageViewer.exe -f -h -input:myimage.jxr`
+
+
 
 # Support
-For questions and problems, email [support@13thsymphony.com](mailto:support@13thsymphony.com).
+For questions and problems, email [support@13thsymphony.com](mailto:support@13thsymphony.com). Alternatively, file a bug on the [GitHub page](https://github.com/13thsymphony/HDRImageViewer).
 
 # Privacy Policy
 HDR + WCG Image Viewer does not collect, store or transmit any personal information or information about files opened by the app, except data to help fix bugs or improve the quality of the app.
